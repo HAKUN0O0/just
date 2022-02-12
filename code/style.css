@@ -1,0 +1,545 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    position: relative;
+}
+.frame__first_intro{
+    height: 800px;
+    background: #F9F6F1;
+}
+.conteiner{
+    max-width: 1120px;
+    margin: 0 auto;
+    width: 100%;
+}
+header{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.for_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.for_first{
+    margin-right: 35px;
+}
+.for_second{
+    margin-right: 35px;
+}
+.for{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    display: flex;
+    align-items: center;
+}
+.tochka{
+    margin-left: 5px;
+}
+.mini__url_header{
+    display: flex;
+}
+.head__header_text{
+    margin-right: 35px;
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+}
+.head__header_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.heads__header_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.contents{
+    display: flex;
+    margin-top: 133px;
+    justify-content: space-between;
+}
+.context_content{
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 35px;
+}
+.text__big_content{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 55px;
+}
+.model_content{
+    width: 200px;
+    height: 50px;
+    background: #D7B399;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+}
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick-dots li{
+    list-style: none;
+}
+.slick-dots li.slick-active button{
+    background: #D7B399;
+}
+/* Элемент точки */
+.slick-dots li button{
+    font-size: 0;
+    width: 40px;
+    background: #CECECE;
+    border: none;
+    height: 7px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 130px
+}
+.frame__second_intro{
+    height: 235px;
+    background: #212121;
+}
+.text_second{
+    margin-top: 80px;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.text_just{
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.info_second{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.context__frame_second{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 23px;
+    margin-bottom: 70px;
+}
+.text__thrid_two{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.text_one{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.frame__third_intro{
+    height: 250px;
+    background: #F9F6F1;
+}
+.info_third{
+    width: 100%;
+    display: flex;
+}
+.first__info_men{
+    width: 50%;
+}
+.first__info_women{
+    width: 50%;
+}
+.text__thrid_two{
+    margin-top: 60px;
+    margin-left: 35px;
+    display: flex;
+}
+.context__first_thrid{
+    margin-top: 25px;
+    margin-left: 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.text_one{
+    margin-left: 14px;
+}
+.button__img_third{
+    width: 80px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.first__info_men{
+    position: relative;
+}
+.men__first_thrid{
+    position: absolute;
+    right: 15px;
+    top: 79px;
+}
+.first__info_women{
+    position: relative;
+}
+.women__first_thrid{
+    position: absolute;
+    right: 15px;
+    top: 79px;
+}
+.info_fourth{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.big_text{
+    margin-bottom: 100px;
+    margin-top: 150px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.fiveth__contents_model{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img_button{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.frame__sixth_intro{
+    height: 180px;
+    background: #212121;
+}
+.info_six{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    align-items: center;
+}
+.text__sixth_info{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.input_search{
+    width: 255px;
+    height: 40px;
+}
+.input__button_info{
+    width: 190px;
+    height: 40px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #D7B399;
+}
+.frame__seventh_intro{
+    height: 311px;
+    background: #212121;
+}
+.info_seventh{
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-between;
+}
+.footer__big_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.big___text__info_footer{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-bottom: 20px
+}
+.mini__context_info{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CBCFD4;
+    margin-bottom: 10px;
+}
+.icon__img_footer{
+    margin-right: 5px;
+}
+.last_first{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+}
+.last_second{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+}
+.frame__eightth_intro{
+    height: 70px;
+}
+.footer_eightth{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__close_burger{
+    display: none;
+    width: 25px;
+    height: 25px;
+}
+.open__clous_burger{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    background-color: #a79a91;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-1800px);
+    transition: all 0.5s;
+}
+.header__close_burger{
+    justify-content: center;
+    margin-top: 0px;
+}
+.open__clous_burger-active{
+    transform: translateX(0);
+}
+.info_big{
+    margin: 15px auto;
+}
+.open___clous__burger_info{
+    width: 30px;
+    height: 22px;
+    margin: 20px auto;
+}
+.__models{
+    margin: 12px;
+}
+@media (max-width: 1070px) {
+    .info_third{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .first__info_men{
+        margin: 0 auto;
+        width: 70%;
+    }
+    .first__info_women{
+        margin: 0 auto;
+        width: 70%;
+    }
+    .frame__third_intro{
+        height: 500px;
+    }
+}
+@media (max-width: 900px) {
+    .header__close_burger{
+        display: block;
+    }
+    .for_header{
+        display: none;
+    }
+    .mini__url_header{
+        display: none;
+    }
+    .logo_header{
+        width: 172px;
+        height: 34px;
+    }
+    .icons_header{
+        width: 80px;
+        height: 26px;
+    }
+    .context_content{
+        font-size: 20px;
+    }
+    .text__big_content{
+        font-size: 40px;
+    }
+    .crosovki_sale{
+        width: 411px;
+        height: 279px;
+    }
+}
+@media (max-width: 820px) {
+    .info_six{
+        flex-direction: column;
+    }
+    .first__info_men {
+        width: 100%;
+    }
+    .first__info_women{
+        width: 100%;
+    }
+    .frame__sixth_intro{
+        height: 330px;
+    }
+    .input_search{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .frame__seventh_intro{
+        display: none;
+    }
+}
+@media (max-width: 650px) {
+    .context_content{
+        text-align: center;
+    }
+    .model_content{
+        margin: 0 auto;
+    }
+    .context_content{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .text__big_content{
+        margin-bottom: 20px;
+    }
+    .contents{
+        flex-direction: column;
+        align-items: center;
+    }
+    .slick-dots li button{
+        margin-top: 30px
+    }
+}
+@media (max-width: 510px) {
+    .frame__second_intro {
+        height: 270px
+    }
+    .women__first_thrid{
+        display: none;
+    }
+    .men__first_thrid{
+        display: none;
+    }
+    .text__thrid_two {
+        margin-left: 0px;
+    }
+    .context__first_thrid {
+        margin-left: 0px;
+    }
+    .button__img_third {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 600px) {
+    .text_second{
+        font-size: 25px;
+    }
+}
+@media (max-width: 450px) {
+    .crosovki_sale{
+        width: 318px;
+        height: 216px;
+    }
+    .text__big_content{
+        font-size: 30px;
+    }
+}
